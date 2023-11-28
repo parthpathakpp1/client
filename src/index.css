@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .media-button { /* Replace 'your-button-class' with the actual class name of your button */
+      position: relative; /* You can change this property as needed */
+      top:60%; /* Adjust the left position as required */
+      font-size: 12px;
+    }
+    .media-button button{
+        font-size: 12px;
+        top:30% ;
+        padding: 5px ;
+    }
+    
+  }
+  @media (max-width: 768px) {
+    .OtherNav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .OtherNav select,
+    .OtherNav input {
+      width: 45%;
+      margin-bottom: 10px;
+    }
+  
+    .OtherNav img {
+      width: 1%;
+      height: auto;
+    }
+   
+      
+  }
+  @media (max-width: 768px) {
+    .OtherNav-links {
+      flex-direction: column;
+      align-items: center;
+      font-size: 8px;
+      line-height:2px;
+      padding: 10px 0;
+    }
+  
+    .OtherNav-links a {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+  
+  }
+  @media (max-width: 768px) {
+    .media-hero {
+     margin-top: 150px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .media-activities {
+     margin-top: 400px;
+    }
+  }
+
+
+  .searchbar{
+    max-width: 100%;
+    width: 32%;
+    height: 45px;
+    border-radius: 70px;
+    margin: 0 auto;
+  }
+  
+  .media-larger-image {
+    width: 54.5%;
+  }
+
+  .save-button{
+    position:absolute;
+    top:86%;
+    right:87%;
+  }
+
+  .share-button{
+    position:absolute;
+    top:86%;
+    right:80%;
+  }
+
+  .gallery-button{
+    position:absolute;
+    top:84%;
+    right:3.9%;
+  }
+  .activities-container{
+    margin-top: 215px;
+  }
+  .modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .details-container{
+    margin-top: 225px;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    max-width:95%;
+    width: 100%;
+    position: relative;
+    max-height: 70vh; 
+    overflow-y: auto; 
+    margin-top: 220px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+
+  @media (max-width: 768px) {
+    .booking-last-media{
+      font-size: x-small;
+      width: 175px;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column  ;
+
+    }
+    .media-second-booking{
+      width: 80%;
+      font-size: x-small;
+    }
+    .images-booking{
+      height: 30px;
+      width: 30px;
+    }
+    .media-booking{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      font-size: x-small;
+    }
+    .booking-media-col{
+      display: flex;
+      flex-direction: column;
+    }
+    .activities-button-media{
+      font-size: 12px;
+    }
+    .media-book-now{
+      font-size: 12px;
+     
+    }
+    .media-details-images{
+     padding-right: 10px;
+    }
+
+    .media-map{
+      width:75%;
+     }
+
+  .media-switch-thing{
+    font-size: 12px;
+  }
+  .media-amenities{
+    font-size: 12px;
+  }
+  .searchbar-media{
+    width: 80%;
+    font-size: 12px;
+  }
+  .media-larger-image{
+    width: 64.5%;
+  }
+  .save-button{
+    position: absolute;
+      top: 60%;
+      right: 50%;
+  }
+  .details-container{
+    margin-top: 225px;
+  }
+
+  .share-button{
+    position: absolute;
+    top: 60%;
+    right: 70%;
+}
+.gallery-button {
+  position: absolute;
+  top: 60%;
+  right: 0%;
+  font-size: 12px;
+}
+.slider-item{
+  margin-top: 25px;
+}
+.activities-container{
+  margin-top: 250px;
+}
+.select-preferred-text{
+  margin-top: 25px;
+  width: 205%;
+  font-size: 16px;
+}
+.popup-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 50%;
+}
+
+  }
+  
+
+
